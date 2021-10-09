@@ -1,0 +1,129 @@
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.nav-link {
+  font-weight: 400;
+}
+
+.navbar {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+/* showcase */
+.showcase {
+  background-size: cover;
+  background-position: center;
+  background-image: url(../img/rujak1.jpg);
+  display: flex;
+  top: 0;
+  height: 85vh;
+  margin-top: -56px;
+}
+
+.showcase::before {
+  content: "";
+  background-color: rgba(255, 166, 0, 0.5);
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 85vh;
+  margin-top: -56px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.content {
+  margin-top: 273px;
+  z-index: 1;
+  width: 100vw;
+}
+
+.my-btn {
+  width: 30%;
+  margin: 50px auto 0 auto;
+}
+
+.bi-arrow-down-circle {
+  font-size: 3rem;
+  color: white;
+}
+
+.arrow:hover {
+  color: rgb(189, 189, 189);
+}
+/* features */
+
+.card:hover {
+  border: none;
+  box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.6);
+  transition: 0.3s;
+}
+
+/* products/menu */
+.product {
+  max-width: 100%;
+  max-height: 100%;
+  height: 449.67px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-decoration: none;
+}
+
+.menu .col-md {
+  margin: 0;
+  padding: 0;
+}
+
+.product h2 {
+  font: bold "Roboto", sans-serif;
+}
+
+.product1 {
+  background-image: url(../img/food/Gado_gado_jakarta.jpg);
+}
+.product2 {
+  background-image: url(../img/food/lontong-kupang.jpg);
+}
+.product3 {
+  background-image: url(../img/food/rujak1.jpg);
+}
+
+.span {
+  background-color: rgba(82, 82, 82, 0.7);
+  width: 100%;
+  height: 449.67px;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.product:hover .span {
+  opacity: 1;
+}
+
+.product .span h2 {
+  margin-top: 0px;
+  transition: 0.3s;
+}
+
+.product:hover .span h2 {
+  margin-top: 100px;
+}
+
+/* footer */
+
+.icon a {
+  margin-right: 15px;
+}
