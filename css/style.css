@@ -122,6 +122,12 @@ html {
   margin-top: 100px;
 }
 
+@media only screen and (max-width: 680px) {
+  .testimonial .col-2 {
+    display: none;
+  }
+}
+
 /* footer */
 
 .icon a {
